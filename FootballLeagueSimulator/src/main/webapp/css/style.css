@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.btn-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Index FLS*/
+
+.indexpage {
+    text-align: center;
+}
+
+.flsTitle {
+    margin-top: 270px !important;
+}
+
+/* Create first teams */
+
+.firstTeamsTitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-firstTeams-submit {
+    text-align: center;
+    margin-top: 50px !important;
+}
+
+/* Homepage */
+
+.homePageTitle {
+    margin-top: 170px;
+}
+
+/* League Overview*/
+
+.standings {
+    color: black;
+    text-decoration: none;
+}
+
+/* Simulate */
+
+.break-block {
+    display: inline !important;
+}
