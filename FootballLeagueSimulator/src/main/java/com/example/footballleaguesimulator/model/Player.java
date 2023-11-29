@@ -17,7 +17,9 @@ public class Player {
     private int goalsScored;
     @Column(name = "playerRating")
     private int playerRating;
-    private Team teamId = new Team();
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "teamId", foreignKey = @ForeignKey(name = "teamId"))
+    private Team teamId;
 
     public Player(int playerId, String playerName, String position, int goalsScored, int playerRating, Team teamId) {
         this.playerId = playerId;
